@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Dados Meteorológicos 2023</title>
+  
+  <!-- Incluir a fonte Roboto do Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Catálogo de Dados 2024</h1>
+  </header>
+
+  <!-- Layout com duas colunas: Filtros à esquerda e Conjuntos de Dados à direita -->
+  <section class="main-content">
+    <!-- Coluna de filtros -->
+    <aside class="filter-section">
+      <h2>Filtrar Conjuntos de Dados</h2>
+      <form id="filter-form">
+        <label for="filter-title">Título:</label>
+        <input type="text" id="filter-title" name="title" placeholder="Filtrar por título...">
+
+        <label for="filter-date">Data de Criação:</label>
+        <input type="date" id="filter-date" name="date">
+
+        <label for="filter-license">Licença:</label>
+        <select id="filter-license" name="license">
+          <option value="">Selecione</option>
+          <option value="https://creativecommons.org/licenses/by/4.0/">Creative Commons Atribuição 4.0</option>
+        </select>
+
+        <button type="submit">Aplicar Filtros</button>
+      </form>
+    </aside>
+
+    <!-- Coluna de Conjuntos de Dados -->
+    <section class="dataset-info">
+      <!-- As informações serão carregadas dinamicamente aqui -->
+    </section>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Catálogo de Dados Meteorológicos</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+
+

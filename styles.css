@@ -1,0 +1,107 @@
+/* Definições gerais do layout */
+body {
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif; /* Fontes modificadas para Roboto */
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background-color: #004d99;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  color: #004d99;
+}
+
+/* Layout de duas colunas usando Flexbox */
+.main-content {
+  display: flex;
+  padding: 20px;
+  gap: 20px; /* Espaçamento entre as colunas */
+}
+
+.filter-section {
+  width: 300px; /* Largura fixa para a coluna de filtros */
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dataset-info {
+  flex: 1; /* Coluna de dados ocupará o restante do espaço */
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do formulário de filtro */
+#filter-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#filter-form label {
+  margin: 5px 0;
+}
+
+#filter-form input, #filter-form select {
+  padding: 8px;
+  margin-bottom: 15px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#filter-form button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#filter-form button:hover {
+  background-color: #218838;
+}
+
+/* Estilo dos datasets */
+.dataset-info p {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+.download-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.download-link:hover {
+  background-color: #218838;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  margin-top: 40px;
+}
+
+
