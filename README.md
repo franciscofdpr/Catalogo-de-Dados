@@ -1,5 +1,5 @@
 
-# Catálogo de Dados Meteorológicos 2024
+# Catálogo de Dados
 
 O catálogo foi construído utilizando o **DCAT (Data Catalog Vocabulary)**, um vocabulário recomendado pela W3C para a descrição de catálogos de dados, facilitando a publicação e o compartilhamento de dados abertos na web.
 
